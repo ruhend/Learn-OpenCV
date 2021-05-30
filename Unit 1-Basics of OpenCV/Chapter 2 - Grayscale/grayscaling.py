@@ -37,3 +37,5 @@ plt.show()
 cv2.imwrite('grayscaling.png', grayImage)
 cv2.imwrite('grayscaling.jpg', grayImage)
 __dout('+', 'saved the files with png and jpg extensions')
+
+__dout('\nxoxo END oxox', '')

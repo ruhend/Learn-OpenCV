@@ -2,7 +2,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-debugFlag = 0
+debugFlag = 1
 
 
 def __dout(status, output):
@@ -32,3 +32,5 @@ cv2.imwrite('saved-using-cv2.jpg', inputImage)
 __dout('+', 'Saved with jpg extension')
 cv2.imwrite('saved-using-cv2.png', inputImage)
 __dout('+', 'Saved with png extension')
+
+__dout('\nxoxo END oxox', '')
