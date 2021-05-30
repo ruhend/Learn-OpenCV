@@ -4,7 +4,7 @@
 _I would be uploading the OpenCV stuff in this repo!_
 
 
-  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo)
+  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=Python)
   ![OpenCV](https://img.shields.io/badge/-OpenCV-333333?style=flat&logo=OpenCV)
   <!-- ![TensorFlow](https://img.shields.io/badge/-TensorFlow-333333?style=flat&logo=Tensorflow) -->
 
