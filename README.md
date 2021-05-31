@@ -1,6 +1,6 @@
 <h1 align="center">Learn-OpenCV<br><br>
 
-![image](https://user-images.githubusercontent.com/54891285/120129724-155b3280-c1e2-11eb-8202-0133c7c4153e.png)
+![image](https://user-images.githubusercontent.com/54891285/120129828-5b17fb00-c1e2-11eb-85c1-ce1ba83d35a8.png)
 
 
 </h1>
