@@ -1,13 +1,19 @@
-# Learn-OpenCV
+<h1 align="center">Learn-OpenCV<br><br>
+
 ![image](https://user-images.githubusercontent.com/54891285/120090699-1af14380-c122-11eb-987a-5f8e8ff84c99.png)
 
-_I would be uploading the OpenCV stuff in this repo!_
+</h1>
 
+<p align='center'> This repo is dedicated to my Python-OpenCV journey </p>
 
+<h2 align="center">
+  
   ![Python](https://img.shields.io/badge/-Python-333333?style=flat-square&logo=Python)
   ![OpenCV](https://img.shields.io/badge/-OpenCV-333333?style=flat-square&logo=OpenCV)
   <!-- ![TensorFlow](https://img.shields.io/badge/-TensorFlow-333333?style=flat&logo=Tensorflow) -->
-
+</h2>
+  
+  
 ## Contents
 - [ ] Basics of Computer Vision and OpenCV
 - [ ] Image Manipulation and Processing
