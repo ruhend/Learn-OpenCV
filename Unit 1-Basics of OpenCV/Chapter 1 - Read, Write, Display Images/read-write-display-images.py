@@ -1,4 +1,6 @@
 # 30 May 2021 10:33:00
+
+### IMPORT HERE ###
 import cv2
 from matplotlib import pyplot as plt
 
@@ -11,6 +13,21 @@ def __dout(status, output):
     else:
         pass
 
+
+### Enter your code here ###
+
+
+debugFlag = 1
+
+
+def __dout(status, output):
+    if debugFlag:
+        print(' ' + status + ' ' + output)
+    else:
+        pass
+
+
+### Enter your code here ###
 
 __dout('+', 'Packages imported successfully')
 
@@ -33,4 +50,5 @@ __dout('+', 'Saved with jpg extension')
 cv2.imwrite('saved-using-cv2.png', inputImage)
 __dout('+', 'Saved with png extension')
 
+### End Code ###
 __dout('\nxoxo END oxox', '')
