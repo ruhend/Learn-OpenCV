@@ -45,9 +45,9 @@ print('Height of the image : ', inputImage.shape[0])
 print('Width of the image : ', inputImage.shape[1])
 
 __dout('>', 'Saving files in $PWD')
-cv2.imwrite('saved-using-cv2.jpg', inputImage)
+cv2.imwrite('saved.jpg', inputImage)
 __dout('+', 'Saved with jpg extension')
-cv2.imwrite('saved-using-cv2.png', inputImage)
+cv2.imwrite('saved.png', inputImage)
 __dout('+', 'Saved with png extension')
 
 ### End Code ###
