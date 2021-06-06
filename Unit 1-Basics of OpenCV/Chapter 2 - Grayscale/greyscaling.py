@@ -2,7 +2,6 @@
 
 ### IMPORT HERE ###
 import cv2
-# import numpy as np
 from matplotlib import pyplot as plt
 
 debugFlag = 1
@@ -16,7 +15,6 @@ def __dout(status, output):
 
 
 ### Enter your code here ###
-
 
 __dout('+', 'packages imported successfully')
 

@@ -15,6 +15,9 @@ def __dout(status, output):
 
 
 ### Enter your code here ###
+
+__dout('+', 'packages imported successfully')
+
 inputImage = cv2.imread('../../samples/input.jpg')
 __dout('+', 'image is imported')
 hvsVersion = cv2.cvtColor(inputImage, cv2.COLOR_BGR2HSV)

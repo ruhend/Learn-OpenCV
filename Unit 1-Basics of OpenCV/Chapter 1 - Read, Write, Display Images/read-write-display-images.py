@@ -16,19 +16,6 @@ def __dout(status, output):
 
 ### Enter your code here ###
 
-
-debugFlag = 1
-
-
-def __dout(status, output):
-    if debugFlag:
-        print(' ' + status + ' ' + output)
-    else:
-        pass
-
-
-### Enter your code here ###
-
 __dout('+', 'Packages imported successfully')
 
 inputImage = cv2.imread('../../samples/input.jpg')
