@@ -1,19 +1,20 @@
 # Sun May 30 16:49:39
+
+### IMPORT HERE ###
+import cv2
+from matplotlib import pyplot as plt
+
 debugFlag = 1
 
 
 def __dout(status, output):
     if debugFlag:
-        print(' ' + status + ' ' + output.title())
+        print(' ' + status + ' ' + output)
     else:
         pass
 
 
-__dout('+', 'Started')
-
-import cv2
-from matplotlib import pyplot as plt
-
+### Enter your code here ###
 inputImage = cv2.imread('../../samples/input.jpg')
 __dout('+', 'image is imported')
 hvsVersion = cv2.cvtColor(inputImage, cv2.COLOR_BGR2HSV)
@@ -55,4 +56,5 @@ cv2.imwrite('hvsVersion_VALUE.jpg', hvsVersion[:, :, 2])
 cv2.imwrite('hvsVersion_VALUE.png', hvsVersion[:, :, 2])
 __dout('+', 'saved value')
 
+### End Code ###
 __dout('\nxoxo END oxox', '')
