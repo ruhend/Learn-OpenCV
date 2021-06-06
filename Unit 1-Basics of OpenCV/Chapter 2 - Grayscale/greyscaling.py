@@ -24,7 +24,7 @@ inputImage = cv2.imread('../../samples/input.jpg')
 __dout('+', 'image imported successfully')
 
 __dout('>', 'using cvtColor to convert it to greyscale')
-greyImage = cv2.cvtColor(inputImage, cv2.COLOR_BGR2grey)
+greyImage = cv2.cvtColor(inputImage, cv2.COLOR_BGR2GRAY)
 __dout('>', 'converted and stored in \'greyImage\'')
 
 row, col = 2, 1
